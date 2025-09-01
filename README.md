@@ -5,12 +5,12 @@ This repository is a collection of small **HTML practice pages**, made to explor
 ##  Structure
 
 - **index.html** → homepage with navigation to the practice pages  
-- **HTML/**
+- **html/**
   - practice.html → sandbox with images, iframes, Lorem Ipsum, buttons, and background color changer  
   - rel_noopener_noreferrer.html → explanation and demo of the `rel="noopener noreferrer"` attribute for safe linking  
   - steps.html → (future / extra practice steps, if used)  
-- **IMG/**
-  - cat.png → practice image  
+- **img/**
+  - maw_cat.png → practice image  
   - clouds.png → practice image  
 
 ##  How to view
