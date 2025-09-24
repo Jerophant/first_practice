@@ -8,7 +8,8 @@ This repository is a collection of small **HTML practice pages**, made to explor
 - **html/**
   - practice.html → sandbox with images, iframes, Lorem Ipsum, buttons, and background color changer  
   - rel_noopener_noreferrer.html → explanation and demo of the `rel="noopener noreferrer"` attribute for safe linking  
-  - steps.html → (future / extra practice steps, if used)  
+  - steps.html → (future / extra practice steps, if used)
+  - sky.html → appearing/disappearing toggle with onclick + basic steganography
 - **img/**
   - maw_cat.png → practice image  
   - clouds.png → practice image  
