@@ -12,7 +12,10 @@ This repository is a collection of small **HTML practice pages**, made to explor
   - sky.html → appearing/disappearing toggle with onclick + basic steganography
 - **img/**
   - maw_cat.png → practice image  
-  - clouds.png → practice image  
+  - clouds.png → practice image
+  - other images ...
+- **css//**
+  - base.css
 
 ##  How to view
 
