@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Remembrance...</title>
+<link rel="stylesheet" href="../css/base.css">
+</head>  
+<body>
+  
+  <div class="story">
+    <p>I've tried touching the clouds,</p>
+    <img class="images" src="../img/sky.JPG" alt="Some clouds playing around...">
+    <p>but then I felt too smart to feel that stupid...</p>
+    <img class="images" src="../img/weed.JPG" alt="Some grass to touch.">
+    <p>So I went on touching the grass ...</p>
+    <img class="images" src="../img/hopeless_bench.jpg" alt="A bench to sit on."
+    onclick="togglePhrase()">
+    <p>... nonchalant of that green bench that stood there, shamelessly devoided of attention.</p>
+    <!-- Staring at that hopeless bench somehow made me crave pizza -->
+    <p id="phrase" class="hidden">And I had the impression that it was hiding something from me!</p>
+  </div>
+
+
+  <script>
+  function togglePhrase() {
+    const phrase = document.getElementById('phrase'); // trovo <p id="phrase">
+
+    if (phrase.style.display === 'block') {
+      // se è visibile -> nascondilo
+      phrase.style.display = 'none';
+    } else {
+      // altrimenti -> mostralo
+      phrase.style.display = 'block';
+    }
+  }
+</script>
+
+
+</body>
+</html>

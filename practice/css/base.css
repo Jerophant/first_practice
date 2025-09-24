@@ -1,0 +1,30 @@
+body {
+  margin: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.images {
+  width: 300px;
+  border-radius: 30px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+.images:hover {
+  opacity: 0.8;
+}
+.images:active {
+  opacity: 0.5;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  align-items: center;
+  margin: 0 auto;   /* <-- questo centra il blocco orizzontalmente */
+}
+
+.hidden {
+  display: none;
+  color: brown;
+}
