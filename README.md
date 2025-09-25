@@ -10,9 +10,9 @@ This repository is a collection of small **HTML practice pages**, made to explor
   - rel_noopener_noreferrer.html → explanation and demo of the `rel="noopener noreferrer"` attribute for safe linking  
   - steps.html → (future / extra practice steps, if used)
   - sky.html → appearing/disappearing toggle with onclick + basic steganography
-  - hint.html
-  - purgatory.html
-  - veritas.html
+  - hint.html → navigation page
+  - purgatory.html → well deserved blankness
+  - veritas.html → details/summary tags and a piece of advise from Epictetus
 - **img/**
   - maw_cat.png → practice image  
   - clouds.png → practice image
