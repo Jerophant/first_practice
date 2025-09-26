@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+
+  <style>
+
+    body {
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .homepage-img {
+      width: 300px;
+      cursor: pointer;
+    }
+    .homepage-img:hover {
+      opacity: 0.8;
+    }
+    .homepage-img:active {
+      opacity: 0.6;
+    }
+
+    .homepage-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .selecting_p {
+      font-weight: 500;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      margin: 10px;
+    }
+
+    button {
+      padding: 10px;
+      margin: 10px;
+      background: none;
+      border: solid;
+      border-style: dotted;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: all 0.15s;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: rgb(218, 227, 224);
+    }
+    button:active {
+      background-color: rgb(82, 101, 95);
+    }
+
+    
+
+  </style>
+
+</head>
+<body>
+  
+  <div class="homepage-container">
+    <img onclick="alert('Every Cloud Has a Silver Lining')" class="homepage-img" src="img/maw_cat.png" alt="A cat...">
+    <p class="selecting_p">Choose a page...</p>
+    <a href="html/practice.html" target="_blank"><button>Lore ipsum things</button></a>
+    <a href="html/rel_noopener_noreferrer.html" target="_blank"><button>Noreferrer, what else?</button></a>
+    <a href="./html/sky.html" target="_blank"><button>That bench is looking straight at me...</button></a>
+  </div>
+
+
+</body>
+</html>
